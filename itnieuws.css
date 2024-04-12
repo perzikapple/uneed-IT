@@ -55,10 +55,14 @@ body {
     flex: 1;
     text-align: center;
     padding: 20px;
-    border: 0px solid #ccc;
+    border: 0 solid #ccc;
     background-color: #4682B4;
 }
 
+.kopje-itnieuws {
+    text-align: center;
+    font-size: 20px;
+}
 
 .news-sections {
     display: flex;
@@ -76,13 +80,19 @@ body {
 }
 
 .news-section p {
-    margin-top: 10px;
+    margin: 10px;
 }
 
 .news-section-tekst {
     background-color: #4682B4;
     max-width: 50%;
+    border-radius: 10px;
 }
 
+.news-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
