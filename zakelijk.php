@@ -6,7 +6,7 @@
 <style>
 
     header {
-        background-color:  #00718d;
+        background-color: #00718d;
         color: white;
         text-align: center;
         padding: 1em;
@@ -39,8 +39,8 @@
 
     .formulier{
         position: absolute;
-        top: 100%;
-        left: 70%;
+        top: 15%;
+        left: 60%;
         background: #0193aa;
 
     }
@@ -73,7 +73,7 @@
     }
 
     h2{
-        color: #5e76d9;
+        color: #ffffff;
     }
 
     #text{
@@ -91,7 +91,7 @@
     }
 
     .adres{
-        margin-top: 50px;
+        margin-top: 150px;
         margin-left: 100px;
         background-color: #c12d29;
     }
@@ -100,6 +100,8 @@
         width: 30%;
         float: left;
         padding: 20px;
+        padding-bottom: 54px;
+        background-color: #c12d29;
     }
 
     #berijkbaar{
@@ -108,16 +110,27 @@
         padding: 20px;
         border-left: solid 1px #ccc;
         border-right: solid 1px #ccc;
+        background-color: #c12d29;
     }
 
     #abonnement{
         width: 30%;
         float: left;
         padding: 20px;
+        background-color: #c12d29;
+    }
+
+    .info{
+        border: solid 1px #ccc;
+        border-radius: 5px;
+        margin-right: 600px;
+        padding: 10px;
+        background-color: lightgrey;
     }
 
 </style>
 <body>
+
 
 <header>
     <nav>
@@ -143,27 +156,10 @@
                 <a>wij maken uw windows en apple laptop gebruiks klaar</a>
             </ul>
             <p>Wilt u meer informatie over onze diensten? Neem dan contact met ons op.</p>
-            <a> U kunt ook altijd bij ons langskomen: Zuidbaan 514
-                2841 MD Moordrecht (Gouwe Park):</a>
-            <p>U kunt ons ook bellen tussen 09:00 - 18:00: +3118 28 202 18</p>
+
         </div>
 
-        <div class="adres">
-            <div id="locatie">
-                <p>Zuidbaan 514, 2841MD</p>
-                <p>Mordrecht</p>
-            </div>
-            <div id="berijkbaar">
-                <p> +316 30 985 409 SERVICENUMMER</p>
-                <p> +3118 28 202 18 KANTOOR</p>
-                <p>BEREIKBAAR VAN 09:00 - 18:00</p>
-            </div>
-            <div id="abonnement">
-                <p> MA T/M VRIJ, 09:00 - 23:00</p>
-                <p>TELEFONISCH BEREIKBAAR</p>
-                <p>VOOR ABONNEMENTHOUDERS</p>
-            </div>
-        </div>
+
 
 
     </div>
@@ -177,8 +173,8 @@
                 <input type="text" id="naam" name="naam" required>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
-                <label for="telefoonnummer">Telefoonnummer:</label>
-                <input type="tel" id="telefoonnummer" name="telefoonnummer" required>
+                <!--                <label for="telefoonnummer">Telefoonnummer:</label>-->
+                <!--                <input type="tel" id="telefoonnummer" name="telefoonnummer" required>-->
                 <label for="bericht">Probleem:</label>
                 <textarea id="bericht" name="bericht" required></textarea>
                 <input type="submit" value="Verstuur">
@@ -198,15 +194,13 @@
             // ontvangen data
             $naam = $_POST['naam'];
             $email = $_POST['email'];
-            $telefoonnummer = $_POST['telefoonnummer'];
             $bericht = $_POST['bericht'];
 
             // verstuur data naar database
-            $query = $bd->prepare('INSERT INTO `formulier` (`naam`, `email`, `telefoonnummer`, `bericht`) VALUES (:naam, :email, :telefoonnummer, :bericht)');
+            $query = $bd->prepare('INSERT INTO `formulier` (`naam`, `email`, `bericht`) VALUES (:naam, :email, :bericht)');
             $query->execute([
                 'naam' => $naam,
                 'email' => $email,
-                'telefoonnummer' => $telefoonnummer,
                 'bericht' => $bericht
             ]);
             Header('Location: zakelijk.php');
@@ -214,6 +208,26 @@
         ?>
         </form>
     </div>
+    </div>
+
+    <div class="adres">
+        <div id="locatie">
+            <p>Zuidbaan 514, 2841MD</p>
+            <p>Mordrecht</p>
+        </div>
+        <div id="berijkbaar">
+            <p> +316 30 985 409 SERVICENUMMER</p>
+            <p> +3118 28 202 18 KANTOOR</p>
+            <p>BEREIKBAAR VAN 09:00 - 18:00</p>
+        </div>
+        <div id="abonnement">
+            <p> MA T/M VRIJ, 09:00 - 23:00</p>
+            <p>TELEFONISCH BEREIKBAAR</p>
+            <p>VOOR ABONNEMENTHOUDERS</p>
+        </div>
+    </div>
+
+
 
 </main>
 </html>

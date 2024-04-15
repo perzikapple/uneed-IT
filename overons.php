@@ -14,7 +14,7 @@
         }
 
         header {
-            background-color: #5e76d9;
+            background-color: #00718d;
             color: white;
             text-align: center;
             padding: 1em;
@@ -154,22 +154,30 @@
             border-radius: 10px;
         }
 
+        #logo{
+            position: absolute;
+            left: 0px;
+            top: -10px;
+        }
+
 
     </style>
 </head>
 <body>
 <header>
     <nav>
+        <img id="logo" src="img/logo.png" width="300px" height="100px">
+
         <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="zakelijk.php.php">Zakelijk</a></li>
-            <li><a href="itnieuws.php">Nieuws</a></li>
+            <li><a href="itnieuws.php">IT-Nieuws</a></li>
             <li><a href='reparaties.php'>Reparaties</a></li>
         </ul>
     </nav>
 </header>
-
 <main>
+
     <div class="info">
         <h3>JOHN EN PETRA SIPS</h3>
         <p>John heeft van 1983 tot 1992 bij IBM Nederland gewerkt als operator en ontwikkeling van besturingssoftware, ook wel "OS2 Warp" genoemd. In die periode heb ik alle certificaten behaald die de basis vormen van de kennis die ik nu heb.</p>
