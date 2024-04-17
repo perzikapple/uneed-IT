@@ -13,27 +13,6 @@
             color: #333;
         }
 
-        header {
-            background-color: #00718d;
-            color: white;
-            text-align: center;
-            padding: 1em;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 10px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
 
         main {
             padding: 20px;
@@ -44,6 +23,7 @@
             border-radius: 5px;
             margin-right: 600px;
             padding: 10px;
+            background-color: lightgrey;
         }
 
         footer {
@@ -101,7 +81,8 @@
             margin-right: 750px;
             margin-left: 10px;
             background-color: #0193aa;
-            border-radius: 10px
+            border-radius: 10px;
+            padding: 10px;
         }
 
         .ICT{
@@ -112,6 +93,7 @@
             margin-left: 750px;
             background-color: #0193aa;
             border-radius: 10px;
+            padding: 10px;
         }
 
         #AVG{
@@ -122,6 +104,7 @@
             margin-left: 10px;
             background-color: #0193aa;
             border-radius: 10px;
+            padding: 10px
         }
 
         #instellateur{
@@ -132,6 +115,7 @@
             margin-left: 750px;
             background-color: #0193aa;
             border-radius: 10px;
+            padding: 10px;
         }
 
         #cloud{
@@ -142,6 +126,7 @@
             margin-left: 10px;
             background-color: #0193aa;
             border-radius: 10px;
+            padding: 10px;
         }
 
         #afspraken{
@@ -152,12 +137,45 @@
             margin-left: 750px;
             background-color: #0193aa;
             border-radius: 10px;
+            padding: 10px;
         }
 
         #logo{
             position: absolute;
             left: 0px;
             top: -10px;
+        }
+        .nav {
+            background-color: white;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 10px;
+            align-items: center;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: flex-end;
+            margin-left: auto;
+        }
+
+        .nav a {
+            display: flex;
+            color: black;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .nav a:hover {
+            background-color: white;
+            color: red;
+        }
+
+        .navlogo img{
+
+            width: 250px;
+            height: auto;
         }
 
 
@@ -166,14 +184,21 @@
 <body>
 <header>
     <nav>
-        <img id="logo" src="img/logo.png" width="300px" height="100px">
-
-        <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="zakelijk.php.php">Zakelijk</a></li>
-            <li><a href="itnieuws.php">IT-Nieuws</a></li>
-            <li><a href='reparaties.php'>Reparaties</a></li>
-        </ul>
+        <div class="nav">
+            <div class="navlogo">
+                <img id="logo" src="img/logo.png" alt width="300px" height="100px">
+            </div>
+            <div class="nav-links">
+                <a href="home.php">Home</a>
+                <a href="itnieuws.php">It nieuws</a>
+                <a href="overons.php">Over ons</a>
+                <a href="reparatie.php">Reparatie</a>
+                <a href="service.php">Service</a>
+                <a href="zakelijk.php">Zakelijk</a>
+                <a href="F.A.Q.php">F.A.Q.</a>
+                <a href="#">webschop</a>
+            </div>
+        </div>
     </nav>
 </header>
 <main>
@@ -185,7 +210,7 @@
         <p>Ook bieden we zakelijke en particuliere abonnementen aan voor service & preventief onderhoud. We zijn sinds jaar en dag een begrip in de ruime regio van Waddinxveen en omstreken. Ons werkgebied loopt van Waddinxveen tot Zevenhuizen en Moerkapelle, Reeuwijk en Tempel maar ook in Zoetermeer, Rotterdam en Schiedam komt u ons regelmatig tegen. In Nieuw Vennep en Hoofddorp in de Haarlemmermeer heeft Uneed-IT een service point.</p>
     </div>
 
-    <img id="foto" src="img/eigenaar.jpeg">
+    <img id="foto" src="../../uneed-IT/eigenaar.jpeg">
 
     <div class="adres">
         <div id="locatie">

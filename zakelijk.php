@@ -1,7 +1,6 @@
 <html>
 <head>
     <title>UneedIT - Zakelijk</title>
-
 </head>
 <style>
     body {
@@ -12,97 +11,82 @@
     }
 
     header {
-        background-color: #00718d;
+        background-color: white;
         color: white;
         text-align: center;
         padding: 1em;
-    }
-
-    nav ul {
-        list-style-type: none;
-        padding: 0;
-    }
-
-    nav ul li {
-        display: inline;
-        margin-right: 10px;
-    }
-
-    nav ul li a {
-        color: #fafafa;
-        text-decoration: none;
     }
 
     main {
         padding: 1em;
     }
 
-    #logo{
+    #logo {
         position: absolute;
         left: 0px;
         top: -10px;
     }
 
-    .formulier{
+    .formulier {
         position: absolute;
         top: 15%;
         left: 60%;
         background: #0193aa;
-
     }
 
-    form{
+    form {
         margin: 0 auto;
         width: 70%;
     }
 
-    label{
+    label {
         display: block;
         margin-top: 10px;
     }
 
-    input, textarea{
+    input,
+    textarea {
         width: 100%;
         padding: 10px;
         margin-top: 5px;
     }
 
-    input[type="submit"]{
+    input[type="submit"] {
         background-color: #c12d29;
         color: #ffffff;
         border: none;
         cursor: pointer;
     }
 
-    textarea{
+    textarea {
         height: 100px;
     }
 
-    #text{
+    #text {
         color: #ffffff;
     }
 
-    #text{
+    #text {
         border: 3px solid #5e76d9;
         padding: 10px;
-        background: ;
+        background:;
     }
 
-    #text h2{
+    #text h2 {
         text-align: center;
     }
 
-    #text p{
+    #text p {
         text-align: center;
     }
 
-    .adres{
+    .adres {
         margin-top: 150px;
         margin-left: 100px;
         background-color: #c12d29;
     }
 
-    #locatie{
+    #locatie {
         width: 30%;
         float: left;
         padding: 20px;
@@ -110,7 +94,7 @@
         background-color: #c12d29;
     }
 
-    #berijkbaar{
+    #berijkbaar {
         width: 30%;
         float: left;
         padding: 20px;
@@ -119,14 +103,14 @@
         background-color: #c12d29;
     }
 
-    #open{
+    #open {
         width: 30%;
         float: left;
         padding: 20px;
         background-color: #c12d29;
     }
 
-    .info{
+    .info {
         border: solid 1px #ccc;
         border-radius: 5px;
         margin-right: 600px;
@@ -134,7 +118,7 @@
         background-color: lightgrey;
     }
 
-    .info-text{
+    .info-text {
         padding: 10px;
     }
 
@@ -145,10 +129,10 @@
         background-color: lightgrey;
         margin-right: 700px;
         position: absolute;
-        top:800px;
+        top: 800px;
     }
 
-    .abonement{
+    .abonement {
         border: solid 1px #ccc;
         border-radius: 5px;
         padding: 10px;
@@ -158,19 +142,58 @@
         top: 800px;
     }
 
+    .nav {
+        background-color: white;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 10px;
+        align-items: center;
+    }
 
+    .nav-links {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: auto;
+    }
+
+    .nav a {
+        display: flex;
+        color: black;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+
+    .nav a:hover {
+        background-color: white;
+        color: red;
+    }
+
+    .navlogo img{
+
+        width: 250px;
+        height: auto;
+    }
 </style>
 <body>
 
-
 <header>
     <nav>
-        <img id="logo" src="img/logo.png" alt width="300px" height="100px">
-        <ul class="nav">
-            <li><a href="home.php">Home</a></li>
-            <li><a href="particulier.php">Particulier</a></li>
-            <li><a href="overons.php">over ons</a></li>
-        </ul>
+        <div class="nav">
+            <div class="navlogo">
+                <img id="logo" src="img/logo.png" alt width="300px" height="100px">
+            </div>
+            <div class="nav-links">
+                <a href="home.php">Home</a>
+                <a href="itnieuws.php">It nieuws</a>
+                <a href="overons.php">Over ons</a>
+                <a href="reparatie.php">Reparatie</a>
+                <a href="service.php">Service</a>
+                <a href="zakelijk.php">Zakelijk</a>
+                <a href="F.A.Q.php">F.A.Q.</a>
+                <a href="#">webschop</a>
+            </div>
+        </div>
     </nav>
 </header>
 <main>
@@ -187,18 +210,13 @@
                 <a>wij maken uw windows en apple laptop gebruiks klaar</a>
             </ul>
             <p>Wilt u meer informatie over onze diensten? Neem dan contact met ons op.</p>
-
         </div>
-
-
-
-
     </div>
+
     <div class="formulier">
         <div id="text">
             <h2 id="form">Contactformulier</h2>
             <p>laat ons weten wat er fout is met welk appataat en doen er wat aan.</p>
-
             <form action="zakelijk.php" method="post">
                 <label for="naam">Naam:</label>
                 <input type="text" id="naam" name="naam" required>
@@ -234,7 +252,6 @@
             Header('Location: zakelijk.php');
         }
         ?>
-        </form>
     </div>
     </div>
 
@@ -254,7 +271,6 @@
             <p>VOOR ABONNEMENTHOUDERS</p>
         </div>
     </div>
-
 
     <div class="abonement">
         <h2>Abonnement</h2>
