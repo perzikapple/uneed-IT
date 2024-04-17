@@ -113,6 +113,19 @@
         <div class="contact-section2">
             <p>bezorg diensten:</p>
             <p>UPS, DHL en HOMERR</p>
+            <p>ophaal tijden 09:00 - 18:00</p>
+        </div>
+        <div class="contact-section2">
+            <p>social media:</p>
+            <a href="https://www.tiktok.com/" target="_blank">
+                <img src="tiktok.jpg" alt="TikTok" width="50" height="50">
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=0642624620" target="_blank">
+                <img src="whatsapp.jpg" alt="WhatsApp" width="50" height="50">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="instalogo.jpg" alt="Instagram" width="50" height="50">
+            </a>
         </div>
     </div>
 </footer>
