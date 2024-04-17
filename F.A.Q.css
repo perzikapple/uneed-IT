@@ -38,7 +38,7 @@ body {
 }
 
 .middel {
-    background-image: url('uneedit02.jpg');
+    background-image: url('uneedit04.jpg');
     background-size: cover;
     background-position: center;
     padding: 50px;
@@ -59,48 +59,31 @@ body {
     background-color: #4682B4;
 }
 
+.F.A.Q {
+    background-color: #8c0404;
+    height: 1000px;
+}
 
-.kopje-itnieuws {
+.kopje-faq {
     text-align: center;
     font-size: 20px;
-    border-radius: 10px;
-    padding: 5px 10px;
+    padding: 10px 20px;
 }
 
-
-.news-sections {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.news-section {
-    flex: 0 1 calc(33.33% - 20px);
+.vraag {
     text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
-.news-section img {
-    max-width: 100%;
-}
-
-.news-section p {
-    margin: 10px;
-}
-
-.news-section-tekst {
-    background-color: #4682B4;
-    max-width: 50%;
-    border-radius: 10px;
-}
-
-.news-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.answer {
+    display:none;
+    text-align: center;
 }
 
 .leeg-stuk {
-    height: 50px;
+    height: 300px;
 }
 
 .contact-section2 {
@@ -110,5 +93,3 @@ body {
     border: 0 solid #ccc;
     background-color: #8c0404;
 }
-
-
