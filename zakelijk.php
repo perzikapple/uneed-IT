@@ -174,6 +174,19 @@
         width: 250px;
         height: auto;
     }
+
+    .contact-info {
+        display: flex;
+    }
+
+    .contact-section {
+        flex: 1;
+        text-align: center;
+        padding: 20px;
+        border: 0px solid #ccc;
+        background-color: #4682B4;
+        margin-top: 150px;
+    }
 </style>
 <body>
 
@@ -255,20 +268,21 @@
     </div>
     </div>
 
-    <div class="adres">
-        <div id="locatie">
-            <p>Zuidbaan 514, 2841MD</p>
-            <p>Mordrecht</p>
+    <div class="contact-info">
+        <div class="contact-section">
+            <p>locatie:</p>
+            <p> zuidbaan 514, 2841MD moordrecht</p>
         </div>
-        <div id="berijkbaar">
-            <p> +316 30 985 409 SERVICENUMMER</p>
-            <p> +3118 28 202 18 KANTOOR</p>
-            <p>BEREIKBAAR VAN 09:00 - 18:00</p>
+        <div class="contact-section">
+            <p>Neem contact met ons op:</p>
+            <p>servicenummer: +316 30 985 409</p>
+            <p>kantoornummer: +3118 28 202 18  of info@uneed-it.nl</p>
+            <p>bereikbaar van 09:00 - 18:00</p>
         </div>
-        <div id="open">
-            <p> MA T/M VRIJ, 09:00 - 23:00</p>
-            <p>TELEFONISCH BEREIKBAAR</p>
-            <p>VOOR ABONNEMENTHOUDERS</p>
+        <div class="contact-section">
+            <p>bezorg diensten:</p>
+            <p>UPS, DHL en HOMERR</p>
+            <p>ophalen van 09:00 tot 18:00</p>
         </div>
     </div>
 

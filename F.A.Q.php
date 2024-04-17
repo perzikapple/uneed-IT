@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>uneed-it</title>
-    <link rel="stylesheet" href="F.A.Q.css"/>
+    <link rel="stylesheet" href="css/F.A.Q.css"/>
 </head>
 <body>
 <nav>
     <div class="nav">
         <div class="navlogo">
-            <img src="logo.png" alt="uneed-it logo">
+            <img src="img/logo.png" alt="uneed-it logo">
         </div>
         <div class="nav-links">
             <a href="home.php">Home</a>
@@ -20,7 +20,7 @@
             <a href="service.php">Service</a>
             <a href="zakelijk.php">Zakelijk</a>
             <a href="F.A.Q.php">F.A.Q.</a>
-            <a href="#">webschop</a>
+            <a href="#">webshop</a>
         </div>
     </div>
 </nav>
@@ -97,13 +97,13 @@
         <div class="contact-section2">
             <p>social media:</p>
             <a href="https://www.tiktok.com/" target="_blank">
-                <img src="tiktok.jpg" alt="TikTok" width="50" height="50">
+                <img src="img/tiktok.jpg" alt="TikTok" width="50" height="50">
             </a>
             <a href="https://api.whatsapp.com/send/?phone=31642624620&text&type=phone_number&app_absent=0" target="_blank">
-                <img src="whatsapp.jpg" alt="WhatsApp" width="50" height="50">
+                <img src="img/whatsapp.jpg" alt="WhatsApp" width="50" height="50">
             </a>
             <a href="https://www.instagram.com/" target="_blank">
-                <img src="instalogo.jpg" alt="Instagram" width="50" height="50">
+                <img src="img/instalogo.jpg" alt="Instagram" width="50" height="50">
             </a>
         </div>
     </div>

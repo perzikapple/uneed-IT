@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.nav a {
+    display: flex;
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: white;
+    color: red;
+}
+
+.navlogo img{
+
+    width: 250px;
+    height: auto;
+}
+
+.middel {
+    background-image: url('../img/uneedit02.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: white;
+    text-align: left;
+    height: 400px;
+}
+
+.contact-info {
+    display: flex;
+}
+
+.contact-section {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border: 0px solid #ccc;
+    background-color: #4682B4;
+}
+
+
+.news-sections {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.news-section {
+    flex: 0 1 calc(33.33% - 20px);
+    text-align: center;
+}
+
+.news-section img {
+    max-width: 100%;
+}
+
+.news-section p {
+    margin-top: 10px;
+}
+
+.news-section-tekst {
+    background-color: #4682B4;
+    max-width: 50%;
+}
+
+
+

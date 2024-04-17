@@ -1,0 +1,171 @@
+ body {
+     font-family : Arial, sans-serif;
+     margin : 0;
+     padding : 0;
+ }
+.nav {
+    background-color : white;
+    overflow : hidden;
+    display : flex;
+    justify-content : space-between;
+    padding : 5px 10px;
+    align-items : center;
+}
+.nav-links {
+    display : flex;
+    justify-content : space-around;
+    margin-left : auto;
+}
+.nav a {
+    display : flex;
+    color : black;
+    padding : 14px 20px;
+    text-decoration : none;
+}
+.nav a:hover {
+    background-color : white;
+    color : blue;
+}
+.navlogo img {
+    width : 250px;
+    height : auto;
+}
+h1 {
+    color : red;
+    position : absolute;
+    left : 70px;
+    top : 180px;
+}
+h3 {
+    left : 170px;
+    top : 40px;
+}
+h4 {
+    color : blue;
+    position : absolute;
+    right : 1170px;
+    top : 260px;
+}
+p {
+    color: black;
+}
+.collum-right {
+    background-image : url("../img/uneedi01.jpg");
+    background-size : cover;
+    background-position : center;
+    padding : 250px;
+    color : white;
+    text-align : left;
+    height : auto;
+}
+.contact-info {
+    display : flex;
+}
+.contact-section {
+    flex : 1;
+    text-align : center;
+    padding : 19px;
+    background-color : #4682B4;
+}
+.Reparatie-container {
+    display: flex;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.repair-form {
+    flex: 1;
+    margin-right: 20px;
+}
+footer {
+    flex: 1;
+}
+.Reparatie-section, .Reparatie-info {
+    flex: 1;
+    text-align: center;
+    padding: 1px;
+    background-color: rgb(128, 128, 128);
+    border-style: solid;
+}
+iframe {
+    width : 450px;
+    height : 110px;
+    position : relative;
+    border-style: solid;
+    border-radius: 10px;
+}
+.repair-form {
+    background-color: #4682B4;
+    max-width: 750px;
+    margin: 20px auto 100px auto; /* Updated margin */
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-style: solid;
+}
+
+.repair-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+.repair-form select,
+.repair-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.repair-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.repair-form button:hover {
+    background-color: #555;
+}
+#brand {
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 10px;
+}
+label[for="brand"] {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#email {
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 10px;
+}
+img {
+    width : 250px;
+    margin: 5px;
+}
+.reparatie {
+    position: relative;
+    padding-left: 500px;
+}
+div {
+    display : block;
+    unicode-bidi : isolate;
+}
+
+
+Css
+
+[15:28] Cesur Orman
+        I weet niet hoe je moet link aan database ik was er niet
+        [15:57] Boudewijn van Damme
+                dat doe ik wel

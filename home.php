@@ -5,13 +5,13 @@
 <head>
     <meta charset="UTF-8">
     <title>uneed-it</title>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
 <nav>
     <div class="nav">
         <div class="navlogo">
-            <img src="logo.png" alt="uneed-it logo">
+            <img src="img/logo.png" alt="uneed-it logo">
         </div>
         <div class="nav-links">
             <a href="home.php">home</a>
@@ -20,6 +20,7 @@
             <a href="reparatie.php">reparatie</a>
             <a href="service.php">service</a>
             <a href="zakelijk.php">zakelijk</a>
+            <a href="F.A.Q.php">F.A.Q</a>
             <a href="#">Webshop</a>
         </div>
     </div>
@@ -55,18 +56,6 @@
         <p> DHL </p>
         <p> UPS </p>
         <p> HOMERR </p>
-    </div>
-    <div class="contact-section">
-        <p>social media:</p>
-        <a href="https://www.tiktok.com/" target="_blank">
-            <img src="tiktok.jpg" alt="TikTok" width="50" height="50">
-        </a>
-        <a href="https://api.whatsapp.com/send/?phone=31642624620&text&type=phone_number&app_absent=0" target="_blank">
-            <img src="whatsapp.jpg" alt="WhatsApp" width="50" height="50">
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-            <img src="instalogo.jpg" alt="Instagram" width="50" height="50">
-        </a>
     </div>
 </div>
 

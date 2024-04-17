@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>uneed-it</title>
-    <link rel="stylesheet" href="itnieuws.css"/>
+    <link rel="stylesheet" href="css/itnieuws.css"/>
 </head>
 <body>
 <nav>
     <div class="nav">
         <div class="navlogo">
-            <img src="logo.png" alt="uneed-it logo">
+            <img src="img/logo.png" alt="uneed-it logo">
         </div>
         <div class="nav-links">
         <a href="home.php">Home</a>
@@ -47,25 +47,27 @@
         <p>ophalen van 09:00 tot 18:00</p>
     </div>
 </div>
+
+
     <div class="kopje-itnieuws"><p>it nieuws </p></div>
 
     <div class="news-sections">
         <div class="news-section">
-            <img src="itnieuws.jpg" alt="Nieuws 1">
+            <img src="img/itnieuws.jpg" alt="Nieuws 1">
             <div class="news-section-tekst">
                 <p>lees meer</p>
             </div>
             <p>een korten samenvatting</p>
         </div>
         <div class="news-section">
-            <img src="itnieuws.jpg" alt="Nieuws 2">
+            <img src="img/itnieuws.jpg" alt="Nieuws 2">
             <div class="news-section-tekst">
                 <p>lees meer</p>
             </div>
             <p>een korten samenvatting</p>
         </div>
         <div class="news-section">
-            <img src="itnieuws.jpg" alt="Nieuws 3">
+            <img src="img/itnieuws.jpg" alt="Nieuws 3">
             <div class="news-section-tekst">
                 <p>lees meer</p>
             </div>
@@ -75,21 +77,21 @@
 
     <div class="news-sections">
         <div class="news-section">
-            <img src="itnieuws.jpg" alt="Nieuws 4">
+            <img src="img/itnieuws.jpg" alt="Nieuws 4">
             <div class="news-section-tekst">
                 <p>lees meer</p>
             </div>
             <p>een korten samenvatting</p>
         </div>
         <div class="news-section">
-            <img src="itnieuws.jpg" alt="Nieuws 5">
+            <img src="img/itnieuws.jpg" alt="Nieuws 5">
             <div class="news-section-tekst">
                 <p>lees meer</p>
             </div>
             <p>een korten samenvatting</p>
         </div>
         <div class="news-section">
-            <img src="itnieuws.jpg" alt="Nieuws 6">
+            <img src="img/itnieuws.jpg" alt="Nieuws 6">
             <div class="news-section-tekst">
                 <p>lees meer</p>
             </div>
@@ -119,13 +121,13 @@
         <div class="contact-section2">
             <p>social media:</p>
             <a href="https://www.tiktok.com/" target="_blank">
-                <img src="tiktok.jpg" alt="TikTok" width="50" height="50">
+                <img src="img/tiktok.jpg" alt="TikTok" width="50" height="50">
             </a>
             <a href="https://api.whatsapp.com/send/?phone=31642624620&text&type=phone_number&app_absent=0" target="_blank">
-                <img src="whatsapp.jpg" alt="WhatsApp" width="50" height="50">
+                <img src="img/whatsapp.jpg" alt="WhatsApp" width="50" height="50">
             </a>
             <a href="https://www.instagram.com/" target="_blank">
-                <img src="instalogo.jpg" alt="Instagram" width="50" height="50">
+                <img src="img/instalogo.jpg" alt="Instagram" width="50" height="50">
             </a>
         </div>
     </div>
