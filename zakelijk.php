@@ -296,7 +296,6 @@
         <h2>Wij begeleiden u graag naar de Cloud… Wie heeft er niet van gehoord? Het moderne nieuwe werken met o.a. Office365, waarbij alle email en data in de Cloud wordt opgeslagen.</h2>
         <p>Uneed-IT en 1A First Alternative begeleiden en beheren zakelijke klanten in elke branche. Voor u geeft dat meerdere voordelen; de belangrijkste zijn: Bij het opmaken van het jaarbudget weet u al wat u het komende jaar aan IT-kosten kwijt bent maandelijkse betaling, dus spreiding van kosten, geen investering meer in eigen Servers etc. Clouddiensten van Uneed-IT leveren wij altijd inclusief Back-up; nooit meer data kwijt raken omdat u een veilige kiest voor een back-up! Uw data staat veilig in Nederlandse datacenters, dus geen zorgen over de privacywetgeving.</p>
     </div>
-
-</body>
 </main>
+</body>
 </html>
