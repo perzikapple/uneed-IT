@@ -37,13 +37,14 @@
     </div>
     <div class="contact-section">
         <p>Neem contact met ons op:</p>
-        <p>+316 30 985 409 servicenummer,
-            +3118 28 202 18 kantoor of email
-            bereikbaar van 09:00 - 18:00</p>
+        <p>servicenummer: +316 30 985 409</p>
+        <p>kantoornummer: +3118 28 202 18  of info@uneed-it.nl</p>
+        <p>bereikbaar van 09:00 - 18:00</p>
     </div>
     <div class="contact-section">
         <p>bezorg diensten:</p>
         <p>UPS, DHL en HOMERR</p>
+        <p>ophalen van 09:00 tot 18:00</p>
     </div>
 </div>
     <div class="kopje-itnieuws"><p>it nieuws </p></div>
@@ -106,21 +107,21 @@
         </div>
         <div class="contact-section2">
             <p>Neem contact met ons op:</p>
-            <p>+316 30 985 409 servicenummer,
-                +3118 28 202 18 kantoor of email
-                bereikbaar van 09:00 - 18:00</p>
+            <p>servicenummer: +316 30 985 409</p>
+            <p>kantoornummer: +3118 28 202 18  of info@uneed-it.nl</p>
+            <p>bereikbaar van 09:00 - 18:00</p>
         </div>
         <div class="contact-section2">
             <p>bezorg diensten:</p>
             <p>UPS, DHL en HOMERR</p>
-            <p>ophaal tijden 09:00 - 18:00</p>
+            <p>ophalen van 09:00 tot 18:00</p>
         </div>
         <div class="contact-section2">
             <p>social media:</p>
             <a href="https://www.tiktok.com/" target="_blank">
                 <img src="tiktok.jpg" alt="TikTok" width="50" height="50">
             </a>
-            <a href="https://api.whatsapp.com/send?phone=0642624620" target="_blank">
+            <a href="https://api.whatsapp.com/send/?phone=31642624620&text&type=phone_number&app_absent=0" target="_blank">
                 <img src="whatsapp.jpg" alt="WhatsApp" width="50" height="50">
             </a>
             <a href="https://www.instagram.com/" target="_blank">

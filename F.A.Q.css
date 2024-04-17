@@ -59,27 +59,31 @@ body {
     background-color: #4682B4;
 }
 
+.h1 {
+    text-align: center;
+}
+
 .F.A.Q {
+    display: flex;
     background-color: #8c0404;
     height: 1000px;
 }
 
-.kopje-faq {
+
+.qa-pair {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    font-size: 20px;
-    padding: 10px 20px;
+    padding: 0px 200px;
 }
 
 .vraag {
-    text-align: center;
-    padding: 10px 20px;
-    cursor: pointer;
     font-weight: bold;
 }
 
 .answer {
-    display:none;
-    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
 }
 
 .leeg-stuk {

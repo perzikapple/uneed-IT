@@ -56,6 +56,18 @@
         <p> UPS </p>
         <p> HOMERR </p>
     </div>
+    <div class="contact-section">
+        <p>social media:</p>
+        <a href="https://www.tiktok.com/" target="_blank">
+            <img src="tiktok.jpg" alt="TikTok" width="50" height="50">
+        </a>
+        <a href="https://api.whatsapp.com/send/?phone=31642624620&text&type=phone_number&app_absent=0" target="_blank">
+            <img src="whatsapp.jpg" alt="WhatsApp" width="50" height="50">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+            <img src="instalogo.jpg" alt="Instagram" width="50" height="50">
+        </a>
+    </div>
 </div>
 
 </body>
