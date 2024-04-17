@@ -4,6 +4,12 @@
 
 </head>
 <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
 
     header {
         background-color: #00718d;
@@ -23,7 +29,7 @@
     }
 
     nav ul li a {
-        color: white;
+        color: #fafafa;
         text-decoration: none;
     }
 
@@ -63,7 +69,7 @@
 
     input[type="submit"]{
         background-color: #c12d29;
-        color: white;
+        color: #ffffff;
         border: none;
         cursor: pointer;
     }
@@ -72,7 +78,7 @@
         height: 100px;
     }
 
-    h2{
+    #text{
         color: #ffffff;
     }
 
@@ -113,7 +119,7 @@
         background-color: #c12d29;
     }
 
-    #abonnement{
+    #open{
         width: 30%;
         float: left;
         padding: 20px;
@@ -127,6 +133,31 @@
         padding: 10px;
         background-color: lightgrey;
     }
+
+    .info-text{
+        padding: 10px;
+    }
+
+    .cloud {
+        border: solid 1px #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: lightgrey;
+        margin-right: 700px;
+        position: absolute;
+        top:800px;
+    }
+
+    .abonement{
+        border: solid 1px #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: lightgrey;
+        margin-left: 800px;
+        position: absolute;
+        top: 800px;
+    }
+
 
 </style>
 <body>
@@ -165,7 +196,7 @@
     </div>
     <div class="formulier">
         <div id="text">
-            <h2>Contactformulier</h2>
+            <h2 id="form">Contactformulier</h2>
             <p>laat ons weten wat er fout is met welk appataat en doen er wat aan.</p>
 
             <form action="zakelijk.php" method="post">
@@ -173,13 +204,10 @@
                 <input type="text" id="naam" name="naam" required>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
-                <!--                <label for="telefoonnummer">Telefoonnummer:</label>-->
-                <!--                <input type="tel" id="telefoonnummer" name="telefoonnummer" required>-->
                 <label for="bericht">Probleem:</label>
                 <textarea id="bericht" name="bericht" required></textarea>
                 <input type="submit" value="Verstuur">
             </form>
-
         </div>
 
         <?php
@@ -220,7 +248,7 @@
             <p> +3118 28 202 18 KANTOOR</p>
             <p>BEREIKBAAR VAN 09:00 - 18:00</p>
         </div>
-        <div id="abonnement">
+        <div id="open">
             <p> MA T/M VRIJ, 09:00 - 23:00</p>
             <p>TELEFONISCH BEREIKBAAR</p>
             <p>VOOR ABONNEMENTHOUDERS</p>
@@ -228,6 +256,31 @@
     </div>
 
 
+    <div class="abonement">
+        <h2>Abonnement</h2>
+        <h1>Uneed-IT Flex All Support</h1>
+        <h3>Speciaal opgezet voor kleine ondernemers en ZZP’ers</h3>
+        <p>Kosten van dit abonnement bedragen vanaf € 24,50 ex. per maand voor een werkstation en € 149,00 per maand voor beheer van een SBS Server. U ontvangt korting op het standaard uurloon. Voor dit abonnement betaalt u € 47,50 per uur i.p.v. € 85,00 excl. BTW.</p>
+        <p> voordelen:</p>
+        <ul>
+            <li>Storingshulp binnen 1 uur</li>
+            <li>Controleren en opschonen van het werkstation</li>
+            <li>Onbeperkt hulp op afstand om kleine problemen op te lossen</li>
+            <li>25 % korting op aanschaf supplies</li>
+            <li>1x per kwartaal controle op veiligheid, updates en status van het werkstation</li>
+            <li>Controle en maken van back-ups van uw data en mail</li>
+            <li>15 % korting op aanschaf hardware</li>
+            <li>Alijd vervangende apparatuur beschikbaar</li>
+        </ul>
+    </div>
 
+    <div class="cloud">
+        <h2>Cloud</h2>
+        <h1>CLOUDDIENSTEN VAN UNEED-IT</h1>
+        <h2>Wij begeleiden u graag naar de Cloud… Wie heeft er niet van gehoord? Het moderne nieuwe werken met o.a. Office365, waarbij alle email en data in de Cloud wordt opgeslagen.</h2>
+        <p>Uneed-IT en 1A First Alternative begeleiden en beheren zakelijke klanten in elke branche. Voor u geeft dat meerdere voordelen; de belangrijkste zijn: Bij het opmaken van het jaarbudget weet u al wat u het komende jaar aan IT-kosten kwijt bent maandelijkse betaling, dus spreiding van kosten, geen investering meer in eigen Servers etc. Clouddiensten van Uneed-IT leveren wij altijd inclusief Back-up; nooit meer data kwijt raken omdat u een veilige kiest voor een back-up! Uw data staat veilig in Nederlandse datacenters, dus geen zorgen over de privacywetgeving.</p>
+    </div>
+
+</body>
 </main>
 </html>
