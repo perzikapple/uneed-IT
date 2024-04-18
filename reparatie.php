@@ -33,11 +33,11 @@
         <p>Neem contact met ons op:</p>
         <p>+316 30 985 409 servicenummer,
             +3118 28 202 18 kantoor,
-            bereikbaar van 09:00 - 18:00</p>
+            bereikbaar van 10:00 - 17:30</p>
     </div>
     <div class="contact-section">
         <p>E-mail:</p>
-        <p>UNEED-it@example.com</p>
+        <p>info@uneed-it.com</p>
     </div>
 </div>
 <div class="Reparatie-container">
@@ -116,7 +116,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <p>+316 30 985 409 SERVICENUMMER
             +3118 28 202 18</p>
         <P> KANTOOR
-            BEREIKBAAR VAN 09:00 - 18:00</P>
+            BEREIKBAAR VAN 10:00 - 17:30</P>
     </div>
     <div class="contact-section">
         <p>E-mail:</p>

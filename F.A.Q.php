@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>uneed-it</title>
+    <title>Uneed-it</title>
     <link rel="stylesheet" href="css/F.A.Q.css"/>
 </head>
 <body>
@@ -20,31 +20,31 @@
             <a href="service.php">Service</a>
             <a href="zakelijk.php">Zakelijk</a>
             <a href="F.A.Q.php">F.A.Q.</a>
-            <a href="#">webshop</a>
+            <a href="#">Webshop</a>
         </div>
     </div>
 </nav>
 <div class="middel">
     <h1>F.A.Q page</h1>
-    <p>op deze pagina heb je de F.A.Q. (Frequently Asked Questions).</p>
+    <p>Op deze pagina heb je de F.A.Q. (Frequently Asked Questions).</p>
 
 </div>
 
 <div class="contact-info">
     <div class="contact-section">
-        <p>locatie:</p>
-        <p> zuidbaan 514, 2841MD moordrecht</p>
+        <p>Locatie:</p>
+        <p>Zuidbaan 514, 2841MD moordrecht</p>
     </div>
     <div class="contact-section">
         <p>Neem contact met ons op:</p>
-        <p>servicenummer: +316 30 985 409</p>
-        <p>kantoornummer: +3118 28 202 18  of info@uneed-it.nl</p>
-        <p>bereikbaar van 09:00 - 18:00</p>
+        <p>Servicenummer: +316 30 985 409</p>
+        <p>Kantoornummer: +3118 28 202 18  of info@uneed-it.nl</p>
+        <p>Bereikbaar van 09:00 - 17:30</p>
     </div>
     <div class="contact-section">
-        <p>bezorg diensten:</p>
+        <p>Bezorg diensten:</p>
         <p>UPS, DHL en HOMERR</p>
-        <p>ophalen van 09:00 tot 18:00</p>
+        <p>Ophalen van 09:00 tot 17:30</p>
     </div>
 </div>
 <div class="h1">
@@ -53,7 +53,7 @@
 <div class="F.A.Q">
     <div class="qa-pair">
         <div class="vraag">Vraag 1: </div>
-        <div class="answer">antwoord facilisis gravida neque convallis. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. Ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Diam maecena</div>
+        <div class="answer">Antwoord facilisis gravida neque convallis. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. Ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Diam maecena</div>
     </div>
 
     <div class="qa-pair">
@@ -80,22 +80,22 @@
 <footer>
     <div class="contact-info">
         <div class="contact-section2">
-            <p>locatie:</p>
-            <p> zuidbaan 514, 2841MD moordrecht</p>
+            <p>Locatie:</p>
+            <p>Zuidbaan 514, 2841MD Moordrecht</p>
         </div>
         <div class="contact-section2">
             <p>Neem contact met ons op:</p>
-            <p>servicenummer: +316 30 985 409</p>
-            <p>kantoornummer: +3118 28 202 18  of info@uneed-it.nl</p>
-            <p>bereikbaar van 09:00 - 18:00</p>
+            <p>Servicenummer: +316 30 985 409</p>
+            <p>Kantoornummer: +3118 28 202 18  of info@uneed-it.com</p>
+            <p>Bereikbaar van 09:00 - 17:30</p>
         </div>
         <div class="contact-section2">
-            <p>bezorg diensten:</p>
+            <p>Bezorg diensten:</p>
             <p>UPS, DHL en HOMERR</p>
-            <p>ophalen van 09:00 tot 18:00</p>
+            <p>Ophalen van 09:00 tot 18:00</p>
         </div>
         <div class="contact-section2">
-            <p>social media:</p>
+            <p>Social media:</p>
             <a href="https://www.tiktok.com/" target="_blank">
                 <img src="img/tiktok.jpg" alt="TikTok" width="50" height="50">
             </a>

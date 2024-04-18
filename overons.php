@@ -209,7 +209,7 @@
                 <a href="service.php">Service</a>
                 <a href="zakelijk.php">Zakelijk</a>
                 <a href="F.A.Q.php">F.A.Q.</a>
-                <a href="#">webschop</a>
+                <a href="#">Webschop</a>
             </div>
         </div>
     </nav>
@@ -227,19 +227,19 @@
 
     <div class="contact-info">
         <div class="contact-section">
-            <p>locatie:</p>
-            <p> zuidbaan 514, 2841MD moordrecht</p>
+            <p>Locatie:</p>
+            <p>Zuidbaan 514, 2841MD Moordrecht</p>
         </div>
         <div class="contact-section">
             <p>Neem contact met ons op:</p>
-            <p>servicenummer: +316 30 985 409</p>
-            <p>kantoornummer: +3118 28 202 18  of info@uneed-it.nl</p>
-            <p>bereikbaar van 09:00 - 18:00</p>
+            <p>Servicenummer: +316 30 985 409</p>
+            <p>Kantoornummer: +3118 28 202 18  of info@uneed-it.com</p>
+            <p>Bereikbaar van 09:00 - 17:30</p>
         </div>
         <div class="contact-section">
             <p>bezorg diensten:</p>
             <p>UPS, DHL en HOMERR</p>
-            <p>ophalen van 09:00 tot 18:00</p>
+            <p>Ophalen van 09:00 tot 17:30</p>
         </div>
     </div>
 

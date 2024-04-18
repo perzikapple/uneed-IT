@@ -19,7 +19,7 @@
             <a href="service.php">Service</a>
             <a href="zakelijk.php">Zakelijk</a>
             <a href="F.A.Q.php">F.A.Q</a>
-            <a href="#">webschop</a>
+            <a href="#">Webschop</a>
         </div>
     </div>
 </nav>
@@ -38,9 +38,9 @@
         <p>Neem contact met ons op:</p>
         <p>+316 30 985 409 servicenummer,
             +3118 28 202 18 kantoor,
-            bereikbaar van 09:00 - 18:00</p>
+            bereikbaar van 10:00 - 17:30</p>
         <p>E-mail:</p>
-        <p> info@uneed-it.nl </p>
+        <p> info@uneed-it.com </p>
     </div>
     <div class="contact-section">
         <p> Bezorgdiensten: </p>
@@ -73,14 +73,14 @@
 <footer>
     <div class="contact-info">
         <div class="contact-section2">
-            <p>locatie:</p>
-            <p> zuidbaan 514, 2841MD moordrecht</p>
+            <p>Locatie:</p>
+            <p>Zuidbaan 514, 2841MD Moordrecht</p>
         </div>
         <div class="contact-section2">
             <p>Neem contact met ons op:</p>
             <p>+316 30 985 409 servicenummer,
                 +3118 28 202 18 kantoor of email
-                bereikbaar van 09:00 - 18:00</p>
+                bereikbaar van 10:00 - 17:30</p>
         </div>
         <div class="contact-section2">
             <p>bezorg diensten:</p>
