@@ -43,7 +43,7 @@
 <div class="Reparatie-container">
     <div class="Reparatie-section">
         <h3>Snelle en betrouwbare oplossingen voor al uw reparatiebehoeften! Van elektronica tot apparaten, wij herstellen het allemaal. Ervaren technici staan klaar om uw kapotte items weer tot leven te brengen.</h3>
-        <img src="OIP%20(4).jpg" alt="Repareren">
+        <img src="img/OIP%20(4).jpg" alt="Repareren">
     </div>
 
     <div class="Reparatie-info">

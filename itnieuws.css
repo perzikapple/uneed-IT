@@ -38,7 +38,7 @@ body {
 }
 
 .middel {
-    background-image: url('img/uneedit02.jpg');
+    background-image: url('uneedit02.jpg');
     background-size: cover;
     background-position: center;
     padding: 50px;
@@ -110,4 +110,3 @@ body {
     border: 0 solid #ccc;
     background-color: #8c0404;
 }
-

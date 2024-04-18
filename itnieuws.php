@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Uneed-it</title>
-    <link rel="stylesheet" href="itnieuws.css"/>
+    <link rel="stylesheet" href="itnieuws.css">
 </head>
 <body>
 <nav>
