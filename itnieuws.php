@@ -1,10 +1,9 @@
-<?php
-?>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>uneed-it</title>
-    <link rel="stylesheet" href="css/itnieuws.css"/>
+    <link rel="stylesheet" href="itnieuws.css"/>
 </head>
 <body>
 <nav>
@@ -126,7 +125,7 @@
             <a href="https://api.whatsapp.com/send/?phone=31642624620&text&type=phone_number&app_absent=0" target="_blank">
                 <img src="img/whatsapp.jpg" alt="WhatsApp" width="50" height="50">
             </a>
-            <a href="https://www.instagram.com/" target="_blank">
+            <a href="https://www.instagram.com/ikmaakhetwel.nl/" target="_blank">
                 <img src="img/instalogo.jpg" alt="Instagram" width="50" height="50">
             </a>
         </div>

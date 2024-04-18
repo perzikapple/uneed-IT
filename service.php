@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>uneed-it</title>
-    <link rel="stylesheet" href="css/Service.css"
+    <link rel="stylesheet" href="css/Service.css">
 </head>
 <body>
 <nav>
     <div class="nav">
         <div class="navlogo">
-            <img src="logo.png" alt="uneed-it logo">
+            <img src="img/logo.png" alt="uneed-it logo">
         </div>
         <div class="nav-links">
-            <a href="home.php">home</a>
-            <a href="itnieuws.php">it nieuws</a>
-            <a href="overons.php">over ons</a>
-            <a href="reparatie.php">reparatie</a>
-            <a href="service.php">service</a>
-            <a href="zakelijk.php">zakelijk</a>
+            <a href="home.php">Home</a>
+            <a href="itnieuws.php">It nieuws</a>
+            <a href="overons.php">Over ons</a>
+            <a href="reparatie.php">Reparatie</a>
+            <a href="service.php">Service</a>
+            <a href="zakelijk.php">Zakelijk</a>
+            <a href="F.A.Q.php">F.A.Q</a>
+            <a href="#">webschop</a>
         </div>
     </div>
 </nav>
@@ -63,7 +65,7 @@
     </div>
 </div>
 
-<img src="uneedi01.jpg" class="image1">
+<img src="img/uneedi01.jpg" class="image1">
 
 
 
