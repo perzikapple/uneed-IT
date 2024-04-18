@@ -68,4 +68,14 @@ try {
             border-radius: 8px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
-    </style><?php
+    </style>
+    </div>
+
+ klik hier als u de reparatie verzoeken wilt zien
+
+    <style>
+        .reparatie {
+            margin-top: 20px;
+        }
+    </style>
+    <a href="reparatie_verzoeken.php" class="reparatie">reparatie verzoeken</a>

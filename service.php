@@ -1,11 +1,9 @@
-<?php
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>uneed-it</title>
-    <link rel="stylesheet" href="Service.css"
+    <link rel="stylesheet" href="css/Service.css"
 </head>
 <body>
 <nav>
