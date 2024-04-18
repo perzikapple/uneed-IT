@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($username == 'admin' && $password == 'admin') {
         $_SESSION['loggedin'] = true;
         echo 'Welkom, admin!';
-        header('Location: verzoeken.php');
+        header('Location: adminpagina.php');
         exit;
     } else {
         echo 'Inloggen mislukt!';
